@@ -1,6 +1,6 @@
 @Library('jenkins-shared-lib')_
 
-stage('Build Info') {
+stage('SCM CheckOut') {
     printBuildinfo {
         name = "Jenkins Shared Library ! "
     }
