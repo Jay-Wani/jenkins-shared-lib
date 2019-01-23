@@ -3,7 +3,7 @@
 def call(body) {
     echo "Check status"
 
-    (1..3).each {
+    (1..5).each {
         echo "Number: " + it
     }
 
