@@ -1,21 +1,3 @@
-# Jenkins Pipeline Shared Library 
 
-```
-@Library('jenkins-pipeline-shared-lib-sample')_
+Jenkins Pipeline Shared Library 
 
-stage('Print Build Info') {
-    printBuildinfo {
-        name = "Sample Name"
-    }
-} stage('Disable balancer') {
-    disableBalancerUtils()
-} stage('Deploy') {
-    deploy()
-} stage('Enable balancer') {
-    enableBalancerUtils()
-} stage('Check Status') {
-    checkStatus()
-}
-```
-
-Run job!
