@@ -1,8 +1,4 @@
-# Jenkins Pipeline Shared Library Sample
-
-This project provides easy example of shared library which can be used into Jenkins pipeline.
-
-Setup instructions
+# Jenkins Pipeline Shared Library 
 
 ```
 @Library('jenkins-pipeline-shared-lib-sample')_
