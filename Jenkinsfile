@@ -2,7 +2,7 @@
 
 stage('Print Build Info') {
     printBuildinfo {
-        name = "Sample Name"
+        name = "Jenkins Shared Library ! "
     }
 } stage('Disable balancer') {
     disableBalancerUtils()
