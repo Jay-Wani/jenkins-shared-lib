@@ -1,14 +1,14 @@
 @Library('jenkins-shared-lib')_
 
-stage('Print Build Info') {
+stage('Build Info') {
     printBuildinfo {
         name = "Jenkins Shared Library ! "
     }
-} stage('Disable balancer') {
+} stage('Disable Load balancer') {
     disableBalancerUtils()
 } stage('Deploy') {
     deploy()
-} stage('Enable balancer') {
+} stage('Enable Load balancer') {
     enableBalancerUtils()
 } stage('Check Status') {
     checkStatus()
