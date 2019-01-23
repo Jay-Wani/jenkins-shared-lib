@@ -1,3 +1,3 @@
 
-##Jenkins Pipeline Shared Library 
-
+## Jenkins Pipeline Shared Library 
+## Pipeline as modular code
